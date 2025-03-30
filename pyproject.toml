@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "movie_genre_tangles"
+version = "0.1"
+requires-python = ">=3.6"
+readme = "README.md"
+
+[tool.setuptools]
+packages = ["movie_genre_tangles"] 
