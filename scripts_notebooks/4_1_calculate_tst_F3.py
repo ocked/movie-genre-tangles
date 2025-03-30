@@ -1,10 +1,7 @@
-import sys
-
-sys.path.append("..")
 import pickle
 from tangles.convenience import search_tangles
 from tangles.search.progress import DefaultProgressCallback
-from tangles.movietangles.convenience import *
+from movie_genre_tangles.convenience import *
 
 with open("../data/data_K3.csv", "r") as f:
     seps, _ = csv_to_setseperationsystem("../data/data_K3.csv")
