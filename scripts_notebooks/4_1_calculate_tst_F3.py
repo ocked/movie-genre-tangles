@@ -3,8 +3,7 @@ from tangles.convenience import search_tangles
 from tangles.search.progress import DefaultProgressCallback
 from movie_genre_tangles.convenience import *
 
-with open("../data/data_K3.csv", "r") as f:
-    seps, _ = csv_to_setseperationsystem("../data/data_K3.csv")
+seps, _ = csv_to_setseperationsystem("../data/data_F3.csv")
 
 with open("../orders/orders_O12_K3", "rb") as f:
     order_O12 = pickle.load(f)
