@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from tangles.separations import SetSeparationSystem
 
 
-def csv_to_setseperationsystem(filepath: str) -> Tuple[np.array, list]:
+def csv_to_setseperationsystem(filepath: str) -> tuple[np.array, list]:
     """Generates a seperationsystem as a matrix from a csv file.
 
     Args:
